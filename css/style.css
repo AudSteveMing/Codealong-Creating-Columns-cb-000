@@ -104,7 +104,7 @@ img, video, audio {
 }
 
 .clearfix::after {
-  content: "."
+  content: ".";
   display: block;
   clear: both;
   visibility: hidden;
@@ -122,4 +122,9 @@ img, video, audio {
 
 .first {
   margin-left: 0%;
+}
+
+section {
+  padding: 20px;
+  margin-bottom: 20px;
 }
